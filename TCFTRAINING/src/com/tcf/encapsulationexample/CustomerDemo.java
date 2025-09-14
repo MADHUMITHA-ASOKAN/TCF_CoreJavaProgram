@@ -1,6 +1,6 @@
-package com.tcf.day2training;
+package com.tcf.encapsulationexample;
 
-public class CustomerDemo {
+public class CustomerDemo extends Customer{
 		    public static void main(String[] args) {
 		        Customer c1 = new Customer();
 		        c1.setCid(101);
@@ -21,7 +21,5 @@ public class CustomerDemo {
 		        c3.setCity("Bangalore");
 		        System.out.println(c3);
 		    }
-		}
-
-
+		
 }

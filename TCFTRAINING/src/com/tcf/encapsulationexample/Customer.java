@@ -1,6 +1,7 @@
-package com.tcf.training;
+package com.tcf.encapsulationexample;
 
 public class Customer {
+	
 	private int cid;
 	private String name;
 	private String city;
@@ -8,6 +9,7 @@ public class Customer {
 	public int getCid() {
 		return cid;
 	}
+	
 	public void setCid(int cid) {
 		this.cid = cid;
 	}
@@ -35,6 +37,10 @@ public class Customer {
 				+ getCid() + ", getName()=" + getName() + ", getCity()=" + getCity() + ", getGetcid()=" + getGetcid()
 				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
 				+ "]";
+	}
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 	
 
