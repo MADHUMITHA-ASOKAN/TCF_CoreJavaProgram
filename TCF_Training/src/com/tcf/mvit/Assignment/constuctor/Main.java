@@ -1,4 +1,4 @@
-package com.tcf.mvit.Assignmentconstuctor;
+package com.tcf.mvit.Assignment.constuctor;
 
 public class Main {
 	 public static void main(String[] args) {
