@@ -1,4 +1,4 @@
-package com.tcf.Shopping;
+package com.tcf.mvit.Shopping;
 
 public class Food implements ShoppingMall {
 	@Override

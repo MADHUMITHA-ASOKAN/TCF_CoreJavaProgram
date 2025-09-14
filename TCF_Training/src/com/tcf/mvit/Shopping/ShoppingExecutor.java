@@ -1,4 +1,4 @@
-package com.tcf.Shopping;
+package com.tcf.mvit.Shopping;
 
 public class ShoppingExecutor {
 	public static void main(String[] args) {
